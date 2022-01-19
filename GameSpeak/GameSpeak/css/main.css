@@ -1,0 +1,158 @@
+/*
+    Author: Ishkhan Terzian ID#001216827
+
+    Date: November 19, 2021, 11:42:37 AM
+
+    Description: Holds the css styling for the main page of GameSpeak
+*/
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(4, 37, 37);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 15px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #38ffff;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+#main {
+  margin-left: 160px;
+  /* Same as the width of the sidenav */
+  font-size: 28px;
+  /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 768px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+html,
+body {
+  background-image: url('../images/ps.png');
+  text-align: center;
+  color: yellow;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#main .loggFail {
+  color: red;
+  text-align: center;
+}
+
+#main .loggFail a {
+  color: red;
+  display: block;
+  text-decoration: none;
+}
+
+#main .loggFail a:hover {
+  color: beige;
+}
+
+.loggOut a {
+  color: red;
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.loggOut a:hover {
+  color: beige;
+}
+
+
+label {
+  display: block;
+  font-size: 20px;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(194, 245, 11);
+}
+
+input {
+  display: block;
+  margin-bottom: 5px;
+  padding: 5px;
+  margin: auto;
+  color: darkblue;
+  border-radius: 10px;
+  border-color: aquamarine;
+  background-color: whitesmoke;
+}
+
+input[type=text] {
+  text-align: center;
+}
+
+input[name=reviewText] {
+  text-align: left;
+}
+
+input[type=password] {
+  text-align: center;
+}
+
+input[type=number] {
+  text-align: center;
+}
+
+input[type=submit] {
+  border-radius: 10px;
+  border-color: bisque;
+  background-color: antiquewhite;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: whitesmoke;
+  border-color: aquamarine;
+  color: darkblue;
+  font-size: 16px;
+  resize: none;
+}
+
+p.words {
+  width: 800px;
+  word-wrap: normal;
+}
+
+.content {
+  text-align: left;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+

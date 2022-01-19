@@ -1,0 +1,83 @@
+/*
+    Author: Ishkhan Terzian ID#001216827
+
+    Date: November 19, 2021, 11:42:37 AM
+
+    Description: Holds the css styling for the main login page of GameSpeak
+*/
+h1, h2 {
+    text-align: center;
+    color: rgb(194, 245, 11);
+}
+
+
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.bg {
+    background-image: url('https://media.giphy.com/media/327uamYDpG5lymwLBk/giphy.gif');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(194, 245, 11);
+}
+
+input {
+    display: block;
+    margin-bottom: 5px;
+    padding: 5px;
+    margin: auto;
+    color: darkblue;
+    border-radius: 10px;
+    border-color: aquamarine;
+    background-color: whitesmoke;
+}
+
+input[type=text] {
+    text-align: center;
+}
+
+input[type=reviewText] {
+    text-align: left;
+}
+
+input[type=password] {
+    text-align: center;
+}
+
+input[type=number] {
+    text-align: center;
+}
+
+input[type=submit] {
+    border-radius: 10px;
+    border-color: bisque;
+    background-color: antiquewhite;
+}
+
+a {
+    
+    text-align: center;
+    color: rgb(218, 253, 17);
+    text-decoration: none;
+}
+
+a:hover {
+    color: aliceblue;
+}

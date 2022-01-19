@@ -1,0 +1,39 @@
+<!-- 
+    Author: Ishkhan Terzian ID#001216827
+
+    Date: November 19, 2021, 11:42:27 AM
+
+    Description: The loggin page for the GameSpeak app,
+                 contains a form to have a user enter their credentials.
+ -->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>GameSpeak</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/gamespeak.css">
+    <script src="js/gamespeak.js"></script>
+</head>
+
+<body class="bg">
+    <h1>Welcome to GameSpeak!</h1>
+    <form method='post' action='server/main.php'>
+
+        <label>Enter your username <span id="userIdMsg"></span></label>
+        <input type='text' name='userid' id="userid" required autofocus><br>
+
+        <label>Enter your password <span id="passwordMsg"></span></label>
+        <input type='password' name='password' id="password" required><br>
+
+        <input type='submit' value='Log in!'>
+        <br>
+    </form>
+
+    <a href="server/createaccount.php">Create an Account!</a>
+
+</body>
+
+</html>
